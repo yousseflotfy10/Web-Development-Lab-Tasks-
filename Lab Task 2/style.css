@@ -1,0 +1,122 @@
+.intro {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sub {
+  border: solid white 1px;
+  padding: 5px 15px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.sub a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.sub:hover {
+  background-color: white;
+}
+
+.sub:hover a {
+  color: black;
+}
+
+body {
+  background-color: beige;
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.About, .Projects, .Contact {
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.About h1, .Projects h1, .Contact h1 {
+  color: black;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.About p, .Projects p, .Contact p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f5f5dc;
+  margin: 8px auto;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.project {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.contact-form {
+  background-color: white;
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}

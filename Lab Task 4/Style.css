@@ -1,0 +1,15 @@
+body {
+    background-color: beige;
+    font-family: Arial;
+    text-align: center;
+}
+#task_box {
+    width: 200px;
+}
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+li {
+    margin: 5px;
+}

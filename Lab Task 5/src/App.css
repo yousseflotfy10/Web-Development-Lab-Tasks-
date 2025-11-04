@@ -1,0 +1,80 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #fafafa;
+  color: #111;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #2b6cb0;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.movie-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment {
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+}
